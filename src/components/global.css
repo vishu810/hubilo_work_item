@@ -38,10 +38,6 @@ h3{
     border-top: 1px solid #DBDBDB;
 }
 
-.add-cancel-btn{
-    display: flex;
-    gap: 10px;
-}
 
 .add-cancel-btn .sidebar-btn{
     background: #FCF3EF;
@@ -75,6 +71,12 @@ h3{
     padding: 0px 24px;
     border-radius: 12px;
 }
+
+.add-cancel-btn{
+    display: flex;
+    gap: 10px;
+}
+
 /* .search-bar-parent div .search-bar{
     color: #E4875D;
 } */
@@ -142,23 +144,21 @@ margin: 0 8px;
     margin: 0 !important;
    }
 
-/* Default checkbox color (unchecked) */
-/* .section-checkbox .MuiSvgIcon-root {
-    color: #636363; /* Unchecked color */
 
-  
-  /* Checkbox color when checked */
+
+   
+
   .section-checkbox .PrivateSwitchBase-input .MuiSvgIcon-root {
-    color: #4caf50 !important; /* Green color when checked */
+    color: #4caf50 !important; 
   }
   
-  /* Hover state */
+  
   .section-checkbox:hover .MuiSvgIcon-root {
-    background-color: rgba(0, 0, 0, 0.08); /* Hover effect */
-    color: #4caf50 !important; /* Ensure it stays green on hover */
+    background-color: rgba(0, 0, 0, 0.08); 
+    color: #4caf50 !important; 
   }
   
   .css-1y5vrnu-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-1y5vrnu-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
-    color: #4caf50 !important; /* Green color when checked */
+    color: #4caf50 !important;
 
 }
