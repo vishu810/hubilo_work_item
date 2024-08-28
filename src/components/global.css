@@ -1,0 +1,164 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    margin: 0;
+}
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #F6F8F8;
+    border-radius: 12px 12px 0 0;
+}
+.MuiPaper-root{
+    border-radius: 12px;
+}
+.search-bar {
+   
+    flex-grow: 1;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.sidebar-content {
+    padding: 16px;
+    overflow-y: auto;
+   margin: 200px;
+}
+
+.sidebar-footer {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-top: 1px solid #DBDBDB;
+}
+
+.add-cancel-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.add-cancel-btn .sidebar-btn{
+    background: #FCF3EF;
+    border-radius: 10px;
+    color: #E4875D;
+}
+
+.parentCheckbox{
+    padding: 0 24px;
+    overflow-y: auto;
+}
+
+.parentCheckbox .search-bar{
+    width: 100%;
+    margin: 16px 0 15px 0;
+    border-radius: 12px;
+    
+}
+
+.search-bar-parent{
+    width: 100%;
+    margin: 16px 0 15px 0;
+    
+    justify-content: center;
+    display: flex;
+   
+}
+.search-bar-parent div{
+    
+    width: 100%;
+    padding: 0px 24px;
+    border-radius: 12px;
+}
+/* .search-bar-parent div .search-bar{
+    color: #E4875D;
+} */
+
+.parentCheckbox .MuiListItem-root {
+    border: 1px solid #E9E9E9;
+    border-radius: 10px;
+    width: 552px;
+    height: 122px;
+}
+
+.selected {
+    border: 2px solid #4caf50 !important;
+    border-radius: 8px;
+}
+
+.sidebar-add-btn {
+margin: 0 8px;
+   background-color: #E4875D !important;
+   color: #fff !important;
+   border-radius: 10px !important;
+
+
+}
+.sidebar-btn-right{
+    border: none !important;
+    color: #E4875D !important;
+    text-transform: inherit !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+}
+
+.MuiAvatar-root {
+    margin-right: 16px;
+}
+
+.parentCheckbox li{
+    margin-bottom: 16px;
+    position: relative;
+}
+.list-inside-section{
+    display: flex;
+    align-items: center;
+}
+
+.section-checkbox{
+    position: absolute !important;
+    top: 2px;
+    right: 2px;
+}
+/* width */
+.parentCheckbox::-webkit-scrollbar {
+    width: 0px;
+  }
+  .edit-button-parent{
+    margin-left:45px ;
+  }
+  .edit-btn{
+   color: #E4875D !important;
+   font-size: 12px !important;
+   
+  }
+
+  .edit-btn  p{
+    margin: 0 !important;
+   }
+
+/* Default checkbox color (unchecked) */
+/* .section-checkbox .MuiSvgIcon-root {
+    color: #636363; /* Unchecked color */
+
+  
+  /* Checkbox color when checked */
+  .section-checkbox .PrivateSwitchBase-input .MuiSvgIcon-root {
+    color: #4caf50 !important; /* Green color when checked */
+  }
+  
+  /* Hover state */
+  .section-checkbox:hover .MuiSvgIcon-root {
+    background-color: rgba(0, 0, 0, 0.08); /* Hover effect */
+    color: #4caf50 !important; /* Ensure it stays green on hover */
+  }
+  
+  .css-1y5vrnu-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-1y5vrnu-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: #4caf50 !important; /* Green color when checked */
+
+}

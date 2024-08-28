@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Sidebar from './sidebar';
+import { Button } from '@mui/material';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+    return (
+        <div className="App">
+            <div style={{margin:'5%'}}>
+            <p> Add Speaker</p>
+               
+         
+            <Button
+                variant="contained"
+                color="warning"
+                onClick={() => setIsSidebarOpen(true)}
+            >
+                Add Speaker
+            </Button>
+           
+              <Sidebar open={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
+              </div>
+        </div>
+    );
 }
 
 export default App;
